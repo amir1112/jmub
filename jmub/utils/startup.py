@@ -87,8 +87,8 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmub(UnblockRequest("@R0R77"))
-        await jmub(UnblockRequest("@jmthon_bot"))
+        await jmub(UnblockRequest("@xaa2024"))
+        await jmub(UnblockRequest("@xaa2024"))
         await jmub(
             UpdateNotifySettingsRequest(
                 peer="t.me/jmthon_bot",
@@ -146,7 +146,7 @@ async def startupmessage():
                 await jmub.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جمثون.",
+                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس سورس المغرور.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -157,9 +157,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmub.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @jmthon\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @xaa2024\n**المطور**: @xaa2024\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @xaa2024\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/xaa2024"),)
                     ],
                 )
         except Exception as e:
