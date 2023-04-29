@@ -81,7 +81,7 @@ temp = """{ALIVE_TEXT}
 
 def jmthonalive_text():
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
-    jmthon_caption = "**سورس جمثون يعمل بنجاح**\n"
+    jmthon_caption = "**سورس الضل يعمل بنجاح**\n"
     jmthon_caption += f"**{EMOJI} اصدار التيليثون :** `{version.__version__}\n`"
     jmthon_caption += f"**{EMOJI} اصدار جمثون :** `{jmthonversion}`\n"
     jmthon_caption += f"**{EMOJI} اصدار البايثون :** `{python_version()}\n`"
