@@ -36,7 +36,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  - "
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**سورس جمثون يعمل بنجاح**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**سورس المغرور يعمل بنجاح**"
     JMTHON_IMG = gvarstatus("ALIVE_PIC")
     caption = jmthon_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -102,9 +102,9 @@ async def repo(event):
 ROZ_PIC = "https://graph.org/file/5f6ef13851dcf0d6fc72b.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**⌯︙بوت جمثـون يعمل بنجاح 🤍،**\n"
+    f"**⌯︙بوت المغرور يعمل بنجاح 🤍،**\n"
     f"**   - اصدار التليثون :** `1.23.0\n`"
-    f"**   - اصدار جمثون :** `4.0.0`\n"
+    f"**   - اصدار المغرور :** `4.0.0`\n"
     f"**   - البوت المستخدم :** `{RAZAN}`\n"
     f"**   - اصدار البايثون :** `3.9.6\n`"
     f"**   - المستخدم :** {mention}\n"
@@ -121,8 +121,8 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("السورس") and event.query.user_id == jmub.uid:
             buttons = [
                 [
-                    Button.url("قنـاة السـورس ⚙️", "https://t.me/JMTHON"),
-                    Button.url("المطـور 👨🏼‍💻", "https://t.me/R0R77"),
+                    Button.url("قنـاة السـورس ⚙️", "https://t.me/xaa2024"),
+                    Button.url("المطـور 👨🏼‍💻", "https://t.me/xaa2024"),
                 ]
             ]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
