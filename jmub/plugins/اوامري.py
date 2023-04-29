@@ -9,7 +9,7 @@ from razan.CMD.aomari import *
 from ..Config import Config
 from ..core import check_owner
 
-ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر جمثون
+ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر المغرور
 من هنا يمكنك تصفح جميع الاوامر المتاحة **"""
 
 ROZADM = "من هنا يمكنك ايجاد جميع"
@@ -25,7 +25,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await jmub.get_me()
         if query.startswith("اوامري") and event.query.user_id == jmub.uid:
             buttons = [
-                [Button.inline("معلومات جمثون", data="AOMRDB")],
+                [Button.inline("معلومات المغرور", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="BOTCMD4"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -66,7 +66,7 @@ async def repo(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("معلومات جمثون", data="AOMRDB")],
+        [Button.inline("معلومات المغرور", data="AOMRDB")],
         [
             Button.inline("البوت", data="BOTCMD4"),
             Button.inline("الكروب", data="admincmd_s"),
@@ -257,7 +257,7 @@ async def varssett(event):
 .زخرفة الوقت 9
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -278,7 +278,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -319,7 +319,7 @@ async def varssett(event):
 
 * يمكنك كتابة اي كليشة مثلا: عزيزي المستخدم تم حظرك 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -339,7 +339,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على عدد التحذيرات كرقم  بالامر   `.وضع عدد التحذيرات `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -360,7 +360,7 @@ async def varssett(event):
 
 * يمكنك الحصول على  كليشة جاهزة من هذه القناة @JJOTT
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -382,7 +382,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -420,7 +420,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -438,9 +438,9 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عند ارسال  امر  `.فحص`
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.وضع كليشة الفحص `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @JJOTT
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @xaa2024
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -460,7 +460,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز التي تريد وضعه بالامر   `.وضع رمز الفحص `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @xaa2024""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
